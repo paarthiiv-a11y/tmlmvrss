@@ -20,7 +20,7 @@ DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://videshi:videshi@videshi.
 DATABASE_NAME = os.getenv("DATABASE_NAME", "videshi") # example Cluster0
 
 # TamilMV settings
-TMV_URL = os.getenv("TMV_URL", "https://www.1tamilmv.meme/")
+TMV_URL = os.getenv("TMV_URL", "")
 TMV_TORRENT = int(os.getenv("TMV_TORRENT", "-1003666166161"))
 TMV_LEECH_GRP = int(os.getenv("TMV_LEECH_GRP", "-1004482504671"))
 TMV_MIRROR_GRP = int(os.getenv("TMV_MIRROR_GRP", "-1004482504671"))
