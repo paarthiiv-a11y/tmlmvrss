@@ -21,9 +21,9 @@ DATABASE_NAME = os.getenv("DATABASE_NAME", "videshi") # example Cluster0
 
 # TamilMV settings
 TMV_URL = os.getenv("TMV_URL", "https://www.1tamilmv.meme/")
-TMV_TORRENT = int(os.getenv("TMV_TORRENT", ""))
-TMV_LEECH_GRP = int(os.getenv("TMV_LEECH_GRP", ""))
-TMV_MIRROR_GRP = int(os.getenv("TMV_MIRROR_GRP", ""))
+TMV_TORRENT = int(os.getenv("TMV_TORRENT", "-1003666166161"))
+TMV_LEECH_GRP = int(os.getenv("TMV_LEECH_GRP", "-1004482504671"))
+TMV_MIRROR_GRP = int(os.getenv("TMV_MIRROR_GRP", "-1004482504671"))
 TMV_TORRENT_THUMB = os.getenv("TMV_TORRENT_THUMB", "https://i.ibb.co/bjF1N1jL/IMG-20260827-192415-019.jpg") #torrant Pic
 BOT_TAG = os.getenv("BOT_TAG", "ALB•") # File Prefix
 
